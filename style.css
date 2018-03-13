@@ -1,0 +1,36 @@
+body {
+	background: #654ea3;
+	font-size: 20px;
+	color: white;
+}
+#btn{
+	outline: none;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 12px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#b07ddb 0%,
+		#621d73);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#b07ddb),
+		to(#621d73));
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	border: 2px solid #ffffff;
+	-moz-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(120,23,135,1);
+	-webkit-box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(120,23,135,1);
+	box-shadow:
+		0px 3px 11px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(120,23,135,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+}
